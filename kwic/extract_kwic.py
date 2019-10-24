@@ -2,6 +2,20 @@
 searchword = "talent"
 window = 20
 ifile = open("/dsl/David_Kyle_Creativeness/raw_corpus/info_and_content.tsv", "r")
+ofile = open("./data/talent_kwic.tsv", "w")
+
+def construct_loc_url (sn, filename):
+    # url example: https://chroniclingamerica.loc.gov/lccn/sn86063539/1919-10-24/ed-1/seq-1/
+    base = "https://chroniclingamerica.loc.gov/lccn/"
+
+    # from filename extract date, ed, seq
+    elem = filename.split("_")
+    date = elem[0]
+    ed = elem[1]
+    seq = elem[2]
+
+    url = base + sn + "/" + date + "/" + ed + "/" + seq + "/"
+    return (url)
 
 for line in ifile:
     line = line.rstrip()
@@ -32,10 +46,5 @@ for line in ifile:
             result = " ".join(words[first:last])
 
             year = filename.split('-')[0]
-            print(year + "\t" + elements[0] + "\t" + batch + "\t" + sn + "\t" + filename +"\t" + result)
-
-
-
-
-
-
+            url = construct_loc_url(sn, filename)
+            print(year + "\t" + url + "\t" + elements[0] + "\t" + batch + "\t" + sn + "\t" + filename +"\t" + result, file=ofile)
