@@ -1,0 +1,370 @@
+{
+  "batches": [
+    {
+      "name": "ct_floyd_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/ct_floyd_ver01.json", 
+      "page_count": 10026, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/ct.json", 
+        "name": "Connecticut State Library, Hartford, CT"
+      }, 
+      "lccns": [
+        "sn82014519"
+      ], 
+      "ingested": "2019-05-17T09:26:54-04:00"
+    }, 
+    {
+      "name": "gu_holmes_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/gu_holmes_ver01.json", 
+      "page_count": 9770, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/gu.json", 
+        "name": "Digital Library of Georgia, a project of GALILEO located at the University of Georgia Libraries"
+      }, 
+      "lccns": [
+        "sn89053684"
+      ], 
+      "ingested": "2019-05-16T17:14:16-04:00"
+    }, 
+    {
+      "name": "ct_doors_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/ct_doors_ver01.json", 
+      "page_count": 10285, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/ct.json", 
+        "name": "Connecticut State Library, Hartford, CT"
+      }, 
+      "lccns": [
+        "sn82014519"
+      ], 
+      "ingested": "2019-05-16T14:11:38-04:00"
+    }, 
+    {
+      "name": "whi_flobberworm_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/whi_flobberworm_ver01.json", 
+      "page_count": 7944, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/whi.json", 
+        "name": "Wisconsin Historical Society"
+      }, 
+      "lccns": [
+        "sn85033019", 
+        "2018270500", 
+        "sn87082456", 
+        "sn87082455", 
+        "sn84024927"
+      ], 
+      "ingested": "2019-05-16T09:51:06-04:00"
+    }, 
+    {
+      "name": "wvu_boreman_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/wvu_boreman_ver01.json", 
+      "page_count": 10017, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/wvu.json", 
+        "name": "West Virginia University"
+      }, 
+      "lccns": [
+        "sn86092536"
+      ], 
+      "ingested": "2019-05-15T20:34:06-04:00"
+    }, 
+    {
+      "name": "gu_gadget_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/gu_gadget_ver01.json", 
+      "page_count": 9163, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/gu.json", 
+        "name": "Digital Library of Georgia, a project of GALILEO located at the University of Georgia Libraries"
+      }, 
+      "lccns": [
+        "sn86063034", 
+        "sn89053684"
+      ], 
+      "ingested": "2019-05-15T16:30:19-04:00"
+    }, 
+    {
+      "name": "gu_bobbsey_ver02", 
+      "url": "http://chroniclingamerica.loc.gov/batches/gu_bobbsey_ver02.json", 
+      "page_count": 8640, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/gu.json", 
+        "name": "Digital Library of Georgia, a project of GALILEO located at the University of Georgia Libraries"
+      }, 
+      "lccns": [
+        "sn86063034", 
+        "sn82015137"
+      ], 
+      "ingested": "2019-04-02T15:33:26-04:00"
+    }, 
+    {
+      "name": "vi_greenjackets_ver02", 
+      "url": "http://chroniclingamerica.loc.gov/batches/vi_greenjackets_ver02.json", 
+      "page_count": 8535, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/vi.json", 
+        "name": "Library of Virginia; Richmond, VA"
+      }, 
+      "lccns": [
+        "sn83026170", 
+        "sn84024013", 
+        "sn84024014"
+      ], 
+      "ingested": "2019-04-02T15:34:21-04:00"
+    }, 
+    {
+      "name": "arhi_dragonair_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/arhi_dragonair_ver01.json", 
+      "page_count": 8710, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/arhi.json", 
+        "name": "Arkansas State Archives"
+      }, 
+      "lccns": [
+        "sn84027696", 
+        "sn89051370", 
+        "sn87090585", 
+        "sn89051130", 
+        "sn89051341", 
+        "sn89051343", 
+        "sn89051342"
+      ], 
+      "ingested": "2019-03-29T13:03:27-04:00"
+    }, 
+    {
+      "name": "mimtptc_nazareth_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/mimtptc_nazareth_ver01.json", 
+      "page_count": 5872, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/mimtptc.json", 
+        "name": "Central Michigan University, Clark Historical Library"
+      }, 
+      "lccns": [
+        "sn83016689"
+      ], 
+      "ingested": "2019-03-28T17:23:45-04:00"
+    }, 
+    {
+      "name": "gu_endeavour_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/gu_endeavour_ver01.json", 
+      "page_count": 9654, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/gu.json", 
+        "name": "Digital Library of Georgia, a project of GALILEO located at the University of Georgia Libraries"
+      }, 
+      "lccns": [
+        "sn86063034"
+      ], 
+      "ingested": "2019-03-26T11:39:04-04:00"
+    }, 
+    {
+      "name": "whi_doxy_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/whi_doxy_ver01.json", 
+      "page_count": 8630, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/whi.json", 
+        "name": "Wisconsin Historical Society"
+      }, 
+      "lccns": [
+        "sn85040437", 
+        "sn85040451"
+      ], 
+      "ingested": "2019-03-25T15:48:43-04:00"
+    }, 
+    {
+      "name": "mimtptc_montague_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/mimtptc_montague_ver01.json", 
+      "page_count": 5458, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/mimtptc.json", 
+        "name": "Central Michigan University, Clark Historical Library"
+      }, 
+      "lccns": [
+        "sn83016689"
+      ], 
+      "ingested": "2019-03-25T18:29:57-04:00"
+    }, 
+    {
+      "name": "az_campfiregoneout_ver03", 
+      "url": "http://chroniclingamerica.loc.gov/batches/az_campfiregoneout_ver03.json", 
+      "page_count": 9541, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/az.json", 
+        "name": "Arizona State Library, Archives and Public Records; Phoenix, AZ"
+      }, 
+      "lccns": [
+        "sn84021917", 
+        "sn84021918", 
+        "sn96060881"
+      ], 
+      "ingested": "2019-03-25T15:48:51-04:00"
+    }, 
+    {
+      "name": "idhi_bagrati_ver02", 
+      "url": "http://chroniclingamerica.loc.gov/batches/idhi_bagrati_ver02.json", 
+      "page_count": 8097, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/idhi.json", 
+        "name": "Idaho State Historical Society"
+      }, 
+      "lccns": [
+        "sn86091104", 
+        "sn89055211", 
+        "sn89055184", 
+        "sn86091063", 
+        "sn88056166"
+      ], 
+      "ingested": "2019-03-22T10:28:23-04:00"
+    }, 
+    {
+      "name": "mnhi_ballet_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/mnhi_ballet_ver01.json", 
+      "page_count": 7457, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/mnhi.json", 
+        "name": "Minnesota Historical Society; Saint Paul, MN"
+      }, 
+      "lccns": [
+        "sn90059591", 
+        "sn84024825", 
+        "sn91059360", 
+        "sn90059446", 
+        "sn90059299", 
+        "sn83016799", 
+        "sn85025587"
+      ], 
+      "ingested": "2019-03-22T10:29:38-04:00"
+    }, 
+    {
+      "name": "prru_benito_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/prru_benito_ver01.json", 
+      "page_count": 7947, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/prru.json", 
+        "name": "University of Puerto Rico, R\u00edo Piedras Campus, Library System"
+      }, 
+      "lccns": [
+        "sn91099739"
+      ], 
+      "ingested": "2019-03-22T10:28:37-04:00"
+    }, 
+    {
+      "name": "me_isleboro_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/me_isleboro_ver01.json", 
+      "page_count": 11746, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/me.json", 
+        "name": "Maine State Library"
+      }, 
+      "lccns": [
+        "sn83016025"
+      ], 
+      "ingested": "2019-03-21T09:34:35-04:00"
+    }, 
+    {
+      "name": "ndhi_gorn_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/ndhi_gorn_ver01.json", 
+      "page_count": 8919, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/ndhi.json", 
+        "name": "State Historical Society of North Dakota"
+      }, 
+      "lccns": [
+        "sn85042224"
+      ], 
+      "ingested": "2019-03-20T18:03:14-04:00"
+    }, 
+    {
+      "name": "prru_abelardo_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/prru_abelardo_ver01.json", 
+      "page_count": 8283, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/prru.json", 
+        "name": "University of Puerto Rico, R\u00edo Piedras Campus, Library System"
+      }, 
+      "lccns": [
+        "sn91099739"
+      ], 
+      "ingested": "2019-03-20T18:04:27-04:00"
+    }, 
+    {
+      "name": "curiv_iris_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/curiv_iris_ver01.json", 
+      "page_count": 9802, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/curiv.json", 
+        "name": "University of California, Riverside; Riverside, CA"
+      }, 
+      "lccns": [
+        "sn86058107", 
+        "sn86058106", 
+        "sn87067106", 
+        "sn84026881", 
+        "sn86058101", 
+        "sn84026882", 
+        "sn93052998", 
+        "sn85025203", 
+        "sn82014488", 
+        "sn86058108", 
+        "sn86076422", 
+        "sn82014487", 
+        "sn82014869", 
+        "sn82014489"
+      ], 
+      "ingested": "2019-03-20T12:15:01-04:00"
+    }, 
+    {
+      "name": "ct_eagles_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/ct_eagles_ver01.json", 
+      "page_count": 10342, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/ct.json", 
+        "name": "Connecticut State Library, Hartford, CT"
+      }, 
+      "lccns": [
+        "sn82014519"
+      ], 
+      "ingested": "2019-03-20T09:50:05-04:00"
+    }, 
+    {
+      "name": "gu_fletcher_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/gu_fletcher_ver01.json", 
+      "page_count": 9128, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/gu.json", 
+        "name": "Digital Library of Georgia, a project of GALILEO located at the University of Georgia Libraries"
+      }, 
+      "lccns": [
+        "sn86063034"
+      ], 
+      "ingested": "2019-03-17T09:59:56-04:00"
+    }, 
+    {
+      "name": "gu_columbo_ver02", 
+      "url": "http://chroniclingamerica.loc.gov/batches/gu_columbo_ver02.json", 
+      "page_count": 8851, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/gu.json", 
+        "name": "Digital Library of Georgia, a project of GALILEO located at the University of Georgia Libraries"
+      }, 
+      "lccns": [
+        "sn86063034"
+      ], 
+      "ingested": "2019-03-14T18:26:52-04:00"
+    }, 
+    {
+      "name": "mimtptc_leonidas_ver01", 
+      "url": "http://chroniclingamerica.loc.gov/batches/mimtptc_leonidas_ver01.json", 
+      "page_count": 5680, 
+      "awardee": {
+        "url": "http://chroniclingamerica.loc.gov/awardees/mimtptc.json", 
+        "name": "Central Michigan University, Clark Historical Library"
+      }, 
+      "lccns": [
+        "sn83016689"
+      ], 
+      "ingested": "2019-03-13T09:31:53-04:00"
+    }
+  ], 
+  "next": "http://chroniclingamerica.loc.gov/batches/2.json"
+}
