@@ -1,0 +1,58 @@
+from bs4 import BeautifulSoup as bsoup
+from urllib.request import urlopen
+import pandas as pd
+import requests
+
+
+def get_header_columns(table):
+    rows = table.find_all("tr")
+    headers = rows[0].find_all("th")
+    column_names = []
+    for header in headers:
+        column_names.append(header.get_text())
+    return column_names
+
+
+def get_table_data(table):
+    rows = table.find_all("tr")
+    rows = rows[1:]
+    data = []
+    for row in rows:
+        tds = row.find_all('td')
+        row_data = []
+        for td in tds:
+            row_data.append(td.get_text().replace('\n', '').strip())
+        data.append(row_data)
+    return data
+
+if __name__ == "__main__":
+
+      url = 'https://chroniclingamerica.loc.gov/batches/;page=1'
+      page = urlopen(url)
+      
+      contents = page.read()
+      soup = bsoup(contents, 'lxml')
+      table = soup.find('table', {'class':'data table table-striped table-hover'})
+      column_names = get_header_columns(table)
+      data = get_table_data(table)
+      data_frame = pd.DataFrame(data=data, columns=column_names)
+      batch_name = (data_frame['Batch Name'])
+
+      for x in range(2, 81):
+
+        urls = 'https://chroniclingamerica.loc.gov/batches/;page='
+        urls += str(x)
+        page = urlopen(urls)     
+        contents = page.read()
+        soup = bsoup(contents, 'lxml')
+        table = soup.find('table', {'class':'data table table-striped table-hover'})
+        column_names = get_header_columns(table)
+        data = get_table_data(table)
+        data_frame = pd.DataFrame(data=data, columns=column_names)
+        batch_name = batch_name.append(data_frame['Batch Name'])
+    
+print(batch_name)
+  
+
+    
+    
